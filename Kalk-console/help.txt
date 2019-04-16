@@ -1,0 +1,20 @@
+Welcome to Kalk.
+Options:
+  -h : Shows this help message;
+  -c : Uses the colour calculator;
+  -n : Uses the number calculator;
+Syntax:
+  Colour:
+    -c: #000000; //colour
+    -c: #r_Hex_value #g_Hex_value #b_Hex_value //colour
+    -c: -t (int r_Value, int g_value, int b_value); //colour
+    -c: ! colour
+    -c: colour +/- colour;
+    -c: palette3 colour;
+    -c: palette4 colour;
+  Number:
+    -n: <*type*> string_number (type: Hexdecimal(H), Binary(B), Octal(O)); //Number
+    -n: <*type*>i int_number (type: Hexdecimal(H), Binary(B), Octal(O)); //Number
+    -n: ! Number;//Operation
+    -n: Number (+x-/%) Number //Operation
+    -n: Operation -o <*type*> (type: int(default), Hexdecimal(H), Binary(B),Octal(O));//Output conversion
